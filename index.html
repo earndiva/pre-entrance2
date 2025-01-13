@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratchaborikanukroh School</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* General Styling */
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Background Video */
+        .background-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .navbar-toggler {
+            outline: none;
+        }
+
+        .bg-light-custom {
+            background: rgba(255, 255, 255, 0.9);
+        }
+
+        .collapse-content {
+            padding: 1rem;
+        }
+
+        .collapse-content h4 {
+            color: #fff;
+            margin: 0;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .collapse-content span {
+            color: #cfcfcf;
+            font-size: 1.1rem;
+        }
+
+        /* Section Styling */
+        .image-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background: #fff(255, 141, 227, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .image-section img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .image-section p {
+            font-size: 1.2rem;
+            color: #ffffff;
+            margin: 0;
+            font-weight: 50;
+        }
+
+        /* Footer Styling */
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #cfcfcf;
+        }
+
+        /* Toggle Button Styling */
+        .toggle-container {
+            position: fixed;
+            top: 10px;
+            right: 20px;
+            display: flex;
+            align-items: center;
+            background-color: #f39c12;
+            border-radius: 30px;
+            padding: 5px 10px;
+            cursor: pointer;
+            z-index: 10;
+            transition: background-color 0.3s ease;
+        }
+
+        .toggle-container:hover {
+            background-color: #b77777;
+        }
+
+        .toggle-container span {
+            margin-left: 10px;
+            color: #fff;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        .icon.dark {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Background Video -->
+    <video class="background-video" autoplay loop muted>
+        <source src="11.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <!-- Image Section -->
+    <section class="image-section">
+        <img src="Group_1.png" alt="Exam Schedule">
+    </section>
+
+    <section class="image-section"> 
+        <img src="exam68.jpg" alt="Exam Schedule">
+    </section>
+
+    <section class="image-section">
+        <img src="Group 2 (1).png" alt="Exam Schedule">
+    </section>
+
+    <!-- Footer -->
+    <!-- <footer class="footer">
+        © 2025 Ratchaborikanukroh School. All rights reserved.
+    </footer> -->
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Theme Toggle Script -->
+  
+</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratchaborikanukroh School</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* General Styling */
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Background Video */
+        .background-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        /* Section Styling */
+        .image-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px;
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .image-section img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .image-section p {
+            font-size: 1.2rem;
+            color: #000;
+            margin: 0;
+            font-weight: 500;
+        }
+
+        /* Application Form */
+        #applicationForm {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            z-index: 100;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        #applicationForm h3 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        #applicationForm .form-group label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        #applicationForm .btn {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            font-weight: bold;
+            color: #fff;
+            background-color: #000000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #applicationForm .btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Overlay */
+        #overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 99;
+        }
+
+        /* Footer Styling */
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #cfcfcf;
+        }
+
+        /* Toggle Button Styling */
+        .button-application {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            font-weight: bold;
+            color: #fff;
+            background-color: #df8d00;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.1s ease;
+        }
+
+        .button-application:hover {
+            background-color: #0056b3;
+        }
+
+        .close-btn {
+            width: 100%;
+            padding: 5px;
+            font-size: rem;
+            font-weight: bold;
+            color: #fff;
+            background-color: #dc3545;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.s ease;
+        }
+
+        .close-btn:hover {
+            background-color: #a71d2a;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Background Video -->
+    <video class="background-video" autoplay loop muted>
+        <source src="11.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>แบบฟอร์มสมัครเรียน</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <style>
+            body {
+                position: relative;
+            }
+    
+            /* ปุ่ม "กรอกแบบฟอร์ม" */
+            #openFormBtn {
+                position: absolute;
+                top: 119vh; /* ตำแหน่งเริ่มต้น */
+                cursor: grab;
+                background-color: #57ed7f; /* สีพื้นฐาน */
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 30px;
+                transition: background-color 0.3s ease, transform 0.2s ease;
+            }
+    
+            /* เมื่อ hover */
+            #openFormBtn:hover {
+                background-color: #0056b3; /* สีใหม่เมื่อ hover */
+                transform: scale(1.05); /* ขยายเล็กน้อย */
+            }
+    
+            /* เมื่อ active */
+            #openFormBtn:active {
+                background-color: #fcc1fa; /* สีใหม่เมื่อ active */
+                transform: scale(0.95); /* ย่อขนาดเล็กลง */
+                cursor: grabbing;
+            }
+    
+            /* Modal */
+            .modal-content {
+                background-color: rgba(255, 255, 255, 0.9);
+                border-radius: 10px;
+                padding: 20px;
+                width: 351px;
+                height: 583px;
+                position: absolute;
+                cursor: grab;
+            }
+    
+            .modal-content:active {
+                cursor: grabbing;
+            }
+    
+            .modal-dialog {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+    
+            .modal-content {
+                overflow-y: auto;
+            }
+    
+            .btn-close {
+                position: absolute;
+                top: 15px;
+                right: 15px;
+                background: none;
+                border: none;
+                font-size: 20px;
+                color: #6c757d;
+                cursor: pointer;
+            }
+    
+            .btn-close:hover {
+                color: #000;
+            }
+
+
+            #openFormBtn {
+                font-size: 1rem;
+                padding: 10px 20px;
+              }
+          
+              @media (min-width: 768px) {
+                #openFormBtn {
+                  font-size: 1.25rem;
+                  padding: 12px 24px;
+                }
+              }
+              
+              @media (max-width: 1920px) {
+                #openFormBtn {
+                    top: 136vh;
+                }
+              }
+
+        </style>
+    </head>
+    <body>
+        <button id="openFormBtn" class="btn btn-primary btn-lg">กรอกแบบฟอร์ม</button>
+        
+    
+        <!-- Modal -->
+        <div id="formModal" class="modal" tabindex="-1" role="dialog" style="display: none;">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content" id="draggableModal">
+                    <button type="button" class="btn-close" id="closeFormBtn">&times;</button>
+                    <h2 class="text-center mb-4">แบบฟอร์มสมัครเรียน</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="prefix">คำนำหน้า</label>
+                            <input type="text" id="คำนำหน้า" name="คำนำหน้า" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="grade">กำลังเรียนอยู่ชั้น</label>
+                            <input type="text" id="กำลังเรียนอยู่ชั้น" name="กำลังเรียนอยู่ชั้น" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="affiliation">สังกัด</label>
+                            <input type="text" id="สังกัด" name="สังกัด" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname">ชื่อ</label>
+                            <input type="text" id="ชื่อ" name="ชื่อ" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">นามสกุล</label>
+                            <input type="text" id="นามสกุล" name="นามสกุล" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="idcard">เลขบัตรประจำตัวประชาชน</label>
+                            <input type="text" id="เลขบัตรประจำตัวประชาชน" name="เลขบัตรประจำตัวประชาชน" class="form-control" required pattern="\d{13}" title="กรุณากรอกเลข 13 หลัก">
+                        </div>
+                        <div class="form-group">
+                            <label for="school">โรงเรียนที่กำลังศึกษาอยู่</label>
+                            <input type="text" id="โรงเรียนที่กำลังศึกษาอยู่" name="โรงเรียนที่กำลังศึกษาอยู่" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">ที่อยู่ตามทะเบียนบ้าน</label>
+                            <textarea id="address" name="ที่อยู่ตามทะเบียนบ้าน" class="form-control" rows="3" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="zipcode">รหัสไปรษณีย์</label>
+                            <input type="text" id="รหัสไปรษณีย์" name="รหัสไปรษณีย์" class="form-control" required pattern="\d{5}" title="กรุณากรอกเลข 5 หลัก">
+                        </div>
+                        <div class="form-group">
+                            <label for="mobile">โทรศัพท์มือถือ</label>
+                            <input type="text" id="โทรศัพท์มือถือ" name="โทรศัพท์มือถือ" class="form-control" required pattern="\d{10}" title="กรุณากรอกหมายเลขโทรศัพท์ 10 หลัก">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">อีเมล</label>
+                            <input type="email" id="อีเมล" name="อีเมล" class="form-control" required>
+                        </div>
+                        <button type="button" class="btn btn-primary" id="closeFormButton">ปิด</button>
+                        <button type="submit" class="btn btn-primary">ส่งข้อมูล</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <!-- หน้าต่างตรวจสอบข้อมูล (Preview Modal) -->
+<div id="previewModal" class="modal" tabindex="-1" role="dialog" style="display: none;">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">ตรวจสอบข้อมูลก่อนส่ง</h5>
+                <button type="button" class="btn-close" id="closePreviewModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <ul id="previewData" style="list-style-type: none; padding: 0;"></ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" id="editForm">แก้ไขข้อมูล</button>
+                <button type="button" class="btn btn-primary" id="confirmSubmit">ยืนยันการส่ง</button>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // ดึงปุ่ม "ส่งข้อมูล" เดิมมาใช้
+    const submitButton = document.querySelector('button[type="submit"]');
+
+    // สร้าง Modal ตรวจสอบข้อมูล
+    const previewModal = document.getElementById('previewModal');
+    const previewData = document.getElementById('previewData');
+    const closePreviewModal = document.getElementById('closePreviewModal');
+    const editFormButton = document.getElementById('editForm');
+    const confirmSubmitButton = document.getElementById('confirmSubmit');
+
+    // ปิด Modal ตรวจสอบข้อมูล
+    closePreviewModal.addEventListener('click', () => {
+        previewModal.style.display = 'none';
+    });
+
+    // ปุ่ม "แก้ไขข้อมูล" (กลับไปฟอร์ม)
+    editFormButton.addEventListener('click', () => {
+        previewModal.style.display = 'none';
+    });
+
+    // ปุ่ม "ยืนยันการส่ง" (ส่งข้อมูลจริง)
+    confirmSubmitButton.addEventListener('click', () => {
+        alert('ส่งข้อมูลสำเร็จ!');
+        previewModal.style.display = 'none';
+        document.querySelector('form').submit(); // ส่งฟอร์มจริง
+    });
+
+    // เปลี่ยนการทำงานปุ่ม "ส่งข้อมูล" เดิม
+    submitButton.addEventListener('click', (e) => {
+        e.preventDefault(); // ป้องกันการส่งข้อมูลทันที
+        previewData.innerHTML = ''; // ล้างข้อมูลเดิม
+
+        // อ่านข้อมูลจากฟอร์ม
+        const formData = new FormData(document.querySelector('form'));
+        formData.forEach((value, key) => {
+            const li = document.createElement('li');
+            li.textContent = `${key}: ${value}`;
+            previewData.appendChild(li);
+        });
+
+        // แสดง Modal ตรวจสอบข้อมูล
+        previewModal.style.display = 'flex';
+    });
+</script>
+        <script>
+            // เปิด Modal
+            const openFormBtn = document.getElementById('openFormBtn');
+            openFormBtn.addEventListener('click', function () {
+                document.getElementById('formModal').style.display = 'flex';
+            });
+    
+            // ปิด Modal
+            document.getElementById('closeFormBtn').addEventListener('click', function () {
+                document.getElementById('formModal').style.display = 'none';
+            });
+    
+            document.getElementById('closeFormButton').addEventListener('click', function () {
+                document.getElementById('formModal').style.display = 'none';
+            });
+    
+            // ลาก Modal
+            const draggableModal = document.getElementById('draggableModal');
+            let isDraggingModal = false;
+            let modalOffsetX, modalOffsetY;
+    
+            draggableModal.addEventListener('mousedown', function (e) {
+                if (!e.target.closest('.form-control')) { // ไม่จับ input หรือ textarea
+                    isDraggingModal = true;
+                    modalOffsetX = e.clientX - draggableModal.offsetLeft;
+                    modalOffsetY = e.clientY - draggableModal.offsetTop;
+                }
+            });
+    
+            window.addEventListener('mousemove', function (e) {
+                if (isDraggingModal) {
+                    draggableModal.style.left = `${e.clientX - modalOffsetX}px`;
+                    draggableModal.style.top = `${e.clientY - modalOffsetY}px`;
+                }
+            });
+    
+            window.addEventListener('mouseup', function () {
+                isDraggingModal = false;
+            });
+            window.addEventListener('mouseup', function () {
+                isDraggingButton = false;
+            });
+            
+        </script>
+        <script>
+    // ตรวจสอบว่าฟอร์มมีข้อมูลครบถ้วน
+    function validateForm() {
+        let isValid = true;
+        const form = document.querySelector('form');
+        const inputs = form.querySelectorAll('input, textarea');
+        
+        inputs.forEach(input => {
+            const errorElement = input.nextElementSibling;
+
+            // ลบข้อความแสดงข้อผิดพลาดเก่าก่อน
+            if (errorElement && errorElement.classList.contains('error-message')) {
+                errorElement.remove();
+            }
+
+            // ตรวจสอบฟิลด์ required
+            if (input.hasAttribute('required') && !input.value.trim()) {
+                showError(input, 'กรุณากรอกข้อมูลในฟิลด์นี้');
+                isValid = false;
+            }
+
+            // ตรวจสอบ pattern (ถ้ามี)
+            if (input.hasAttribute('pattern')) {
+                const pattern = new RegExp(input.getAttribute('pattern'));
+                if (!pattern.test(input.value.trim())) {
+                    showError(input, input.title || 'ข้อมูลไม่ถูกต้อง');
+                    isValid = false;
+                }
+            }
+        });
+
+        return isValid;
+    }
+
+    // แสดงข้อความข้อผิดพลาดใต้ฟิลด์
+    function showError(input, message) {
+        const errorElement = document.createElement('div');
+        errorElement.textContent = message;
+        errorElement.classList.add('error-message');
+        errorElement.style.color = 'red';
+        errorElement.style.fontSize = '0.875em';
+        errorElement.style.marginTop = '5px';
+        input.parentNode.appendChild(errorElement);
+    }
+
+    // เปลี่ยนการทำงานปุ่ม "ส่งข้อมูล" เดิม
+    submitButton.addEventListener('click', (e) => {
+        e.preventDefault(); // ป้องกันการส่งข้อมูลทันที
+
+        // ล้างข้อความข้อผิดพลาดทั้งหมดก่อนตรวจสอบ
+        const errorMessages = document.querySelectorAll('.error-message');
+        errorMessages.forEach(error => error.remove());
+
+        if (validateForm()) {
+            // อ่านข้อมูลจากฟอร์ม
+            previewData.innerHTML = ''; // ล้างข้อมูลเดิม
+            const formData = new FormData(document.querySelector('form'));
+            formData.forEach((value, key) => {
+                const li = document.createElement('li');
+                li.textContent = `${key}: ${value}`;
+                previewData.appendChild(li);
+            });
+
+            // แสดง Modal ตรวจสอบข้อมูล
+            previewModal.style.display = 'flex';
+        } else {
+            alert('กรุณากรอกข้อมูลให้ครบถ้วน');
+        }
+    });
+    // ตรวจสอบว่าฟอร์มมีข้อมูลครบถ้วน
+    function validateForm() {
+        let isValid = true;
+        const form = document.querySelector('form');
+        const inputs = form.querySelectorAll('input, textarea');
+        
+        inputs.forEach(input => {
+            const errorElement = input.nextElementSibling;
+
+            // ลบข้อความแสดงข้อผิดพลาดเก่าก่อน
+            if (errorElement && errorElement.classList.contains('error-message')) {
+                errorElement.remove();
+            }
+
+            // ตรวจสอบฟิลด์ required
+            if (input.hasAttribute('required') && !input.value.trim()) {
+                showError(input, 'กรุณากรอกข้อมูลในฟิลด์นี้');
+                isValid = false;
+            }
+
+            // ตรวจสอบ pattern (ถ้ามี)
+            if (input.hasAttribute('pattern')) {
+                const pattern = new RegExp(input.getAttribute('pattern'));
+                if (!pattern.test(input.value.trim())) {
+                    showError(input, input.title || 'ข้อมูลไม่ถูกต้อง');
+                    isValid = false;
+                }
+            }
+        });
+
+        return isValid;
+    }
+
+    // แสดงข้อความข้อผิดพลาดใต้ฟิลด์
+    function showError(input, message) {
+        const errorElement = document.createElement('div');
+        errorElement.textContent = message;
+        errorElement.classList.add('error-message');
+        errorElement.style.color = 'red';
+        errorElement.style.fontSize = '0.875em';
+        errorElement.style.marginTop = '5px';
+        input.parentNode.appendChild(errorElement);
+    }
+
+    // เปลี่ยนการทำงานปุ่ม "ส่งข้อมูล" เดิม
+    submitButton.addEventListener('click', (e) => {
+        e.preventDefault(); // ป้องกันการส่งข้อมูลทันที
+
+        // ล้างข้อความข้อผิดพลาดทั้งหมดก่อนตรวจสอบ
+        const errorMessages = document.querySelectorAll('.error-message');
+        errorMessages.forEach(error => error.remove());
+
+        if (validateForm()) {
+            // อ่านข้อมูลจากฟอร์ม
+            previewData.innerHTML = ''; // ล้างข้อมูลเดิม
+            const formData = new FormData(document.querySelector('form'));
+            formData.forEach((value, key) => {
+                const li = document.createElement('li');
+                li.textContent = `${key}: ${value}`;
+                previewData.appendChild(li);
+            });
+
+            // แสดง Modal ตรวจสอบข้อมูล
+            previewModal.style.display = 'flex';
+        } else {
+            alert('กรุณากรอกข้อมูลให้ครบถ้วน');
+        }
+    });
+    
+</script>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Navbar with Dropdown</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* ให้ Navbar อยู่ด้านบนสุดของหน้า */
+    .navbar {
+      position: fixed;
+      top: -60px; /* เริ่มต้นซ่อน Navbar ที่ด้านบน */
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      transition: top 0.3s; /* เพิ่ม transition ให้การแสดง/ซ่อนนุ่มนวล */
+    }
+
+    /* เพิ่มช่องว่างด้านบนให้เนื้อหาด้านล่างไม่ถูกบัง */
+    body {
+      padding-top: 60px;
+    }
+
+    /* เพิ่มขนาดให้ Navbar แนวยาว */
+    .navbar-nav {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+
+     <base href="/earndiva/">
+    <title> My Website </title>
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">หน้าเเรก <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              ติดต่อเรา
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">โทรศัพท์: 02-993-2353 ต่อ 106</a></li>
+              <li><a class="dropdown-item" href="mailto:preent@nmrsw2.ac.th">อีเมล: preent@nmrsw2.ac.th</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              เว็บไซต์
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="https://www.nmrsw2.ac.th/" target="_blank">https://www.nmrsw2.ac.th/</a></li>
+            </ul>
+          </li>
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            สำหรับผู้ดูแล
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="https://preent.nmrsw2.ac.th/authen/login" target="_blank">https://preent.nmrsw2.ac.th/authen/login</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    // เมื่อเลื่อนหน้าเว็บลงมาถึงตำแหน่ง Navbar ให้แสดง
+    window.onscroll = function() {toggleNavbar()};
+
+    function toggleNavbar() {
+      if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+        document.querySelector('.navbar').style.top = "0"; // แสดง Navbar
+      } else {
+        document.querySelector('.navbar').style.top = "-60px"; // ซ่อน Navbar
+      }
+    }
+  </script>
+</body>
+</html>
+
+
+
