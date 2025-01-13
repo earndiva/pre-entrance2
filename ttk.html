@@ -147,13 +147,13 @@
     </section>
 
     <section class="image-section">
-        <img src="Group_2 copy.png" alt="Exam Schedule">
+        <img src="Group 2 (1).png" alt="Exam Schedule">
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
         © 2025 Ratchaborikanukroh School. All rights reserved.
-    </footer>
+    </footer> -->
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -351,8 +351,7 @@
             /* ปุ่ม "กรอกแบบฟอร์ม" */
             #openFormBtn {
                 position: absolute;
-                left: 847px; /* ตำแหน่งเริ่มต้น */
-                top: 1455px; /* ตำแหน่งเริ่มต้น */
+                top: 119vh; /* ตำแหน่งเริ่มต้น */
                 cursor: grab;
                 background-color: #57ed7f; /* สีพื้นฐาน */
                 color: white;
@@ -415,10 +414,30 @@
             .btn-close:hover {
                 color: #000;
             }
+
+
+            #openFormBtn {
+                font-size: 1rem;
+                padding: 10px 20px;
+              }
+          
+              @media (min-width: 768px) {
+                #openFormBtn {
+                  font-size: 1.25rem;
+                  padding: 12px 24px;
+                }
+              }
+              
+              @media (max-width: 1920px) {
+                #openFormBtn {
+                    top: 136vh;
+                }
+              }
+
         </style>
     </head>
     <body>
-        <button id="openFormBtn" class="btn btn-primary">กรอกแบบฟอร์ม</button>
+        <button id="openFormBtn" class="btn btn-primary btn-lg">กรอกแบบฟอร์ม</button>
         
     
         <!-- Modal -->
